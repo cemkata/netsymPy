@@ -1,0 +1,1 @@
+SELECT `seq` FROM `sqlite_sequence` where name='rules_tbl';
