@@ -18,3 +18,7 @@ You will be asked if you want to start automatically or just to unpack it.
 In order to the pyNetsim to work corectly you have to start it with root permitions.
 
 All scripts have to start with root permitions.
+
+TODO
+make better logging.
+For now eitehr it logs almost everzthing or nothing.
