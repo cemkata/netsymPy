@@ -1,4 +1,4 @@
-# pyNetsim
+# netsymPy
 python based web interface for netem, tc
 
 The program uses Bottle: Python Web Framework.
