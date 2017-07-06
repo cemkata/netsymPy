@@ -1,1 +1,0 @@
-select `ruleStatus` from `rules_tbl` where (id='{}')
