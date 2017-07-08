@@ -1,7 +1,7 @@
 # netsymPy
 python based web interface for netem, tc
 
-The program uses Bottle: Python Web Framework.
+The program uses Bottle: Python Web Framework. (https://bottlepy.org/docs/dev/#)
 This doesn`t work on windows. 
 
 the program alows to add delete and change rules for the tc.
@@ -18,6 +18,7 @@ You will be asked if you want to start automatically or just to unpack it.
 In order to the pyNetsim to work corectly you have to start it with root permitions.
 
 All scripts have to start with root permitions.
+
 
 TODO
 make better logging.
