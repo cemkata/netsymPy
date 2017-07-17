@@ -12,7 +12,11 @@ To run it you need python3 and iproute or iproute2 package installed on the linu
 
 To install it you can either download the pyNetsimInstaler.sh 
 Change the permitions to be executable.
+And start:
+ - createDB.sh
+ - editConfig.sh
 And start it with root permitions. 
+
 You will be asked if you want to start automatically or just to unpack it.
 
 In order to the pyNetsim to work corectly you have to start it with root permitions.
