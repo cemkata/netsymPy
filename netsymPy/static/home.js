@@ -58,7 +58,7 @@ function setActionEdit(name){
 						var temp='';
 						for(var i=0; i<formArray.length; i++){
 							temp+=formArray[i];
-							temp+";"
+							temp+=";"
 						}
 						document.getElementsByName("editFormAction")[0].value='disable';
 						document.getElementsByName("ruleID")[0].value=temp;
