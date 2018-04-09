@@ -179,7 +179,8 @@ def actionHandler():
          ids=ruleID.split(';')
          ids.pop()
          for currentID in ids:
-            deleteRules(currentID)
+
+            disableRules(currentID)
             deleteRule(id= currentID, intface = getIntByRuleID(currentID))
 
          return template('clearrules', title='Rules disabled')
