@@ -71,7 +71,7 @@ function testDigit(name){
 	}
 }
 
-function checkIPv4(name){
+function checkipV4(name){
 	var testValue = document.getElementsByName(name)[0];
 	/*if(testValue.value == ""){
 			alert("NULL");
