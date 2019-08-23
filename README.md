@@ -23,8 +23,7 @@ In order to the pyNetsim to work corectly you have to start it with root permiti
 
 All scripts have to start with root permitions.
 
-If you dont want to use the instalation script
-after downloading you should replace "pythonScripts/bottle.py" with the file from https://github.com/bottlepy/bottle/raw/master/bottle.py
+If you dont want to install bottle globaly just download bottle.py and place it in "pythonScripts/". You can use this link https://github.com/bottlepy/bottle/raw/master/bottle.py
 
 *Note: If the nic interface is wrong you can replace the printif.sh with one of printif1.sh	or printif2.sh or printif3.sh or printif4.sh.
        In case none of the scripts work create one manualy just echoing each interface name one at a time like printif5.sh
