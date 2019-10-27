@@ -12,8 +12,10 @@ To run it you need python3 and iproute or iproute2 package installed on the linu
 
 To install it you have to clone this repository 
 Change the permitions to be executable for createDB.sh and editConfig.sh.
-Then run
+Then run:
+ 
  sudo ./createDB.sh
+ 
  sudo ./editConfig.sh
 
 In order to the pyNetsim to work corectly you have to start it with root permitions.
