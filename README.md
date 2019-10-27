@@ -10,14 +10,11 @@ tc is a programm that alows to simulate diffrent network behaivour.
 
 To run it you need python3 and iproute or iproute2 package installed on the linux.
 
-To install it you can either download the pyNetsimInstaler.sh 
-Change the permitions to be executable.
-And start:
- - createDB.sh
- - editConfig.sh
-And start it with root permitions. 
-
-You will be asked if you want to start automatically or just to unpack it.
+To install it you have to clone this repository 
+Change the permitions to be executable for createDB.sh and editConfig.sh.
+Then run
+ sudo ./createDB.sh
+ sudo ./editConfig.sh
 
 In order to the pyNetsim to work corectly you have to start it with root permitions.
 
@@ -30,4 +27,4 @@ If you dont want to install bottle globaly just download bottle.py and place it 
 
 TODO
 make better logging.
-For now eitehr it logs almost everzthing or nothing.
+For now it either logs almost everything or nothing.
